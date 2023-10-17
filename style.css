@@ -3,3 +3,41 @@
     font-family: Arial;
     border: border-box;
 }
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+}
+
+.nav-logo {
+    background-color: #0f1111;
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("/img/stock-vector-amazon-logo-icon-isolated-on-transparent-background-vector-eps-2300329721.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+
+/** box 2 **/
+
+/**.nav-address {
+    display: flex;
+}**/
+.first-address {
+color: grey;
+}
+.second-address {
+    color: white;
+}
