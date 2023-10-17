@@ -3,11 +3,12 @@
     font-family: Arial;
     border: border-box;
 }
-.navbar {
+.nav-bar {
     height: 60px;
     background-color: #0f1111;
     color: white;
     display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -24,20 +25,26 @@
 }
 
 .border {
-    border: 2px solid transparent;
+    border: 1.5px solid transparent;
 }
 .border:hover {
-    border: 2px solid white;
+    border: 1.5px solid white;
 }
 
-/** box 2 **/
+/** box 2 
 
-/**.nav-address {
-    display: flex;
+.nav-address:hover {
+    border: 1.5px solid white;
 }**/
 .first-address {
 color: grey;
+font-size: .85rem;
 }
 .second-address {
     color: white;
+    font-size: 1rem;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
 }
