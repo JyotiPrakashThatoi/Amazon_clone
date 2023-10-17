@@ -39,12 +39,21 @@
 .first-address {
 color: grey;
 font-size: .85rem;
+margin-left: 25px;
 }
 .second-address {
     color: white;
     font-size: 1rem;
+    margin-left: 5px;
+
 }
 .add-icon {
     display: flex;
     align-items: center;
+    margin-left: 10px;
+}
+/** box3 **/
+.nav-search {
+    display: flex;
+
 }
